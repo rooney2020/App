@@ -35,4 +35,9 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    // https://mvnrepository.com/artifact/org.realityforge.org.jetbrains.annotations/org.jetbrains.annotations
+    implementation group: 'org.realityforge.org.jetbrains.annotations', name: 'org.jetbrains.annotations', version: '1.7.0'
+    // https://mvnrepository.com/artifact/com.mpatric/mp3agic
+    implementation group: 'com.mpatric', name: 'mp3agic', version: '0.9.1'
+
 }
