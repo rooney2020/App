@@ -33,7 +33,8 @@
             android:exported="true" />
 
         <activity android:name=".activity.SearchActivity" />
-        <activity android:name=".activity.DiskActivity">
+        <activity android:name=".activity.DiskActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
